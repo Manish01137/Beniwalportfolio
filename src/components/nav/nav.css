@@ -6,9 +6,22 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    position: fixed;
+    top: 0;
+  
+}
+.active{
+    color: rgb(107,211,211);
+    border-bottom: 2px solid white; 
 
 }
-
+nav ul a{
+    cursor: pointer;
+}
+nav ul a:hover{
+    color: rgb(107,211,211);
+    border-bottom: 2px solid white;
+}
 ul{
     display: flex;
     align-items: center;

@@ -7,10 +7,10 @@ function Nav() {
     <nav>
       <h1>PORTFOLIO</h1>
        <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Project</li>
+    <Link to="home" activeClass='active' spy={true} smooth={true} duration={500}> <li>Home</li> </Link>  
+       <Link to="about" activeClass='active' spy={true} smooth={true} duration={500}><li>About</li></Link> 
+        <Link to="contact" activeClass='active' spy={true} smooth={true} duration={500}><li>Contact</li></Link>
+       <Link to="project" activeClass='active' spy={true} smooth={true} duration={500}><li>Project</li></Link> 
        </ul>
      
     </nav>
